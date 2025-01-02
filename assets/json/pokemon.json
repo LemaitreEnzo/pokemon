@@ -1,0 +1,69 @@
+{
+    "pokemons": [
+      {
+        "name": "Pikachu",
+        "img": "pikachu.png",
+        "level": 10,
+        "hp": 500,
+        "hpMax": 500,
+        "stamina": 200,
+        "staminaMax": 200,
+        "type": "electrik",
+        "attacks": [
+          { "name": "Éclair", "damage": 40, "type": "electrik","energy": 20 },
+          { "name": "Queue de fer", "damage": 15, "type": "steel","energy": 15 },
+          { "name": "Queue de fer", "damage": 15, "type": "steel","energy": 15 },
+          { "name": "Queue de fer", "damage": 15, "type": "steel","energy": 15 }
+        ]
+      },
+      {
+        "name": "Salamèche",
+        "img": "salamèche.png",
+        "level": 8,
+        "hp": 39,
+        "hpMax": 39,
+        "stamina": 40,
+        "staminaMax": 40,
+        "type": "fire",
+        "attacks": [
+          { "name": "Flammèche", "damage": 45, "type": "fire","energy": 25 },
+          { "name": "Flammèche", "damage": 45, "type": "fire","energy": 25 },
+          { "name": "Griffe", "damage": 20, "type": "normal","energy": 10 },
+          { "name": "Griffe", "damage": 20, "type": "normal","energy": 10 }
+        ]
+      },
+      {
+        "name": "Carapuce",
+        "img": "carapuce.png",
+        "level": 7,
+        "hp": 200,
+        "hpMax": 200,
+        "stamina": 120,
+        "staminaMax": 120,
+        "type": "water",
+        "attacks": [
+          { "name": "Pistolet à eau", "damage": 30, "type": "water","energy": 15 },
+          { "name": "Morsure", "damage": 25, "type": "normal","energy": 10 },
+          { "name": "Pistolet à eau", "damage": 40, "type": "water","energy": 15 },
+          { "name": "Morsure", "damage": 25, "type": "normal","energy": 10 }
+        ]
+      },
+      {
+        "name": "Bulbizarre",
+        "img": "bulbizarre.png",
+        "level": 9,
+        "hp": 45,
+        "hpMax": 45,
+        "stamina": 40,
+        "staminaMax": 40,
+        "type": "grass",
+        "attacks": [
+          { "name": "Fouet lianes", "damage": 35, "type": "grass","energy": 20 },
+          { "name": "Charge", "damage": 15, "type": "normal","energy": 5 },
+          { "name": "tranche herbe", "damage": 15, "type": "grass","energy": 5 },
+          { "name": "Charge", "damage": 15, "type": "normal","energy": 5 }
+        ]
+      }
+    ]
+  }
+  

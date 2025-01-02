@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	background-image: url("../img/bg.webp");
+	background-size: cover;
+}
+
+section {
+	width: 50%;
+	height: 100%;
+	position: relative;
+}
+
+.pokemon {
+	position: absolute;
+	height: 10rem;
+	left: 70%;
+	transform: translateX(-50%);
+}
+
+.player1-pokemon {
+	bottom: 30%;
+}
+
+.player2-pokemon {
+	left: auto;
+	right: 60%;
+	transform: translateX(50%);
+	top: 30%;
+}
+
+section .data {
+	width: 19rem;
+	height: 15rem;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+}
+
+.left .data {
+	left: 0;
+	bottom: 0;
+	border-radius: 0 1rem 0 0;
+	margin-left: 3%;
+	margin-bottom: 3%;
+}
+
+.right .data {
+	right: 0;
+	top: 0;
+	border-radius: 0 0 0 1rem;
+	margin-right: 3%;
+	margin-top: 3%;
+}
+
+.data>div {
+	width: 100%;
+	height: 50%;
+}
+
+.info {
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: white;
+}
+
+.pokeinfo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.info>div {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.info>div .life {
+	width: 100%;
+	height: 0.5rem;
+	border: 1px solid black;
+	border-radius: 0.5rem;
+}
+
+.player1-lifeBar {
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to right, red, yellow, green);
+	transition: ease-in-out 0.3s;
+}
+.player2-lifeBar {
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to right, red, yellow, green);
+	transition: ease-in 0.3s;
+}
+
+.info>div .stamina {
+	width: 100%;
+	height: 0.3rem;
+	border: 1px solid black;
+	border-radius: 0.5rem;
+}
+
+.player1-staminaBar {
+	height: 100%;
+	width: 100%;
+	background: blue;
+	transition: ease-in 0.3s;
+}
+.player2-staminaBar {
+	height: 100%;
+	width: 100%;
+	background: blue;
+}
+
+.atcksContainer {
+	display: none;
+}
+
+.atcksContainer button {
+	width: 35%;
+	height: 2rem;
+	cursor: pointer;
+}
+
+.turn {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	gap: 1rem;
+	background: white;
+}
+
+
+
+.water {
+	background-color: #2481EF;
+}
+
+.normal {
+	background-color: #A0A2A0;
+}
+
+.grass {
+	background-color: #3DA224;
+}
+
+.fire {
+	background-color: #E72324;
+}
+
+.electrik {
+	background-color: #FAC100;
+}
+
+.ground {
+	background-color: #E0C068;
+}
+
+.fairy {
+	background-color: #EF70EF;
+}
+
+.psychic {
+	background-color: #EF3F7A;
+}
+
+.dragon {
+	background-color: #4F60E2;
+}
+
+.ice {
+	background-color: #3DD9FF;
+}
+
+.dark {
+	background-color: #4F3F3D;
+}
+
+.steel {
+	background-color: #60A2B9;
+}
+
